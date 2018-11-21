@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view>模板消息</view>
+  <button open-type='getUserInfo'>步骤一获取个人openid</button>
+  <form bindsubmit="formSubmit" bindreset="formReset" report-submit="true">
+    <view class="btn-area">
+      <button formType="submit">步骤二Submit发送通知</button>
+    </view>
+  </form>
+  <view>就是那么简单</view>
+</view>
